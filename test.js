@@ -56,3 +56,16 @@
 // const max = 20;
 
 // console.log(Math.floor(Math.random()*(max-min+1))+min) // 10 to 20 + 10 
+
+
+
+// const course = {
+//     name: "Javascript",
+//     price: 100,
+//     discount: 0.1
+// }
+
+// const {name: courseName} = course
+
+// console.log(courseName)
+
