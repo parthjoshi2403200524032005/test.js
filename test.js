@@ -26,8 +26,7 @@
 
 // console.log(null > 0) // false
 // console.log(null == 0) // false
-// console.log(null >= 0) // true          
-
+// console.log(null >= 0) // true
 
 // let url = "https://www.google.com"
 // console.log(url.replace("https://", "parth://"))
@@ -39,7 +38,6 @@
 
 // console.log(number.toFixed(1)) // 123.0
 // console.log(number.toPrecision(3)) // 123
-
 
 // let hundred = 1000000;
 // console.log(hundred.toLocaleString())// 1,000,000
@@ -55,9 +53,7 @@
 // const min = 10;
 // const max = 20;
 
-// console.log(Math.floor(Math.random()*(max-min+1))+min) // 10 to 20 + 10 
-
-
+// console.log(Math.floor(Math.random()*(max-min+1))+min) // 10 to 20 + 10
 
 // const course = {
 //     name: "Javascript",
@@ -69,3 +65,34 @@
 
 // console.log(courseName)
 
+// const [,,animal] = ["dog", "cat", "parth"]
+// console.log(animal)
+
+// const [d,c,animal] = ["dog", "cat", "parth"];
+// console.log(d);
+// console.log(c);
+// console.log(animal);
+
+// function pattern1() {
+//     let n = 5;
+//     let result = ''; // Store the result
+//     for (let i = n; i >= 1; i--) {
+//       let str = "* ";
+//       result += str.repeat(i) + '\n'; // Add each line to the result
+//     }
+//     return result; // Return the result
+//   }
+  
+//   function pattern2() {
+//     let n = 5;
+//     let result = ''; // Store the result
+//     for (let i = n; i >= 1; i--) {
+//       let str = "* ";
+//       let space = "  ";
+//       result += space.repeat(n - i) + str.repeat(i) + '\n'; // Add each line to the result
+//     }
+//     return result; // Return the result
+//   }
+  
+//   console.log(pattern1() + pattern2()); // Concatenate the results of pattern1 and pattern2
+  
